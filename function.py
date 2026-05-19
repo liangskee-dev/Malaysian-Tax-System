@@ -1,6 +1,6 @@
 import pandas as pd
 import os
-
+# the function use for verify the user
 def verify_user(user_id, ic_number,password):
     user_id = str(user_id).strip()
     ic_number = str(ic_number).strip()
